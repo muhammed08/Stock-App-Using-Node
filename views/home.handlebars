@@ -1,6 +1,12 @@
-<h1>
-hello
-</h1>
-<p>
-{{stuff}}
-</p>
+
+
+<br/>
+
+<div class="jumbotron">
+  <h1 class="display-4">{{ stock.companyName}} ({{stock.symbol}})</h1>
+  <p class="lead"><strong> Latest price :</strong>{{stock.latestPrice}}<br/>
+<strong>Previous Close : </strong>{{stock.previousClose}}<br/>
+<strong> Percentage Change : </strong>{{stock.changePercent}}<br/>
+<strong> Market Cap : </strong>{{stock.marketCap}}<br/></p>
+  
+</div>
